@@ -147,7 +147,7 @@ def main():
                        rec_books = books_list[(books_list['Book-Title'] == j)]
                        rst = rec_books.iloc[[0]]
                        book_data_df.loc[i+1] = [rst['Book-Title'].values[0]] + [rst['Book-Author'].values[0]] + [rst['Year-Of-Publication'].values[0]] + [rst['Publisher'].values[0]] + [rst['Image-URL-M'].values[0]]
-                    reco_books = load_DF(book_data_df)   
+                    reco_books = book_data_df   
                     reco_books    
                     
             except:
