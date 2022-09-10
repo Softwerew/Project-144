@@ -1,4 +1,4 @@
 pandas
 numpy
-HTML
+IPython.core.display.HTML
 streamlit 
